@@ -1,0 +1,40 @@
+<suite name = "Regression Suite" parallel="tests" thread-count="3">
+      
+      <test name = "Regression Test" >
+	 <parameter name="browser" value="chrome"/>
+        <classes>
+			    <class name = "factorialsiteCheck.BrowserStack"/>
+			<class name = "factorialsiteCheck.ElementsStorage"/>
+            <class name = "factorialsiteCheck.ElimentsValidation"/>
+            <class name = "factorialsiteCheck.ValidationAttributesCheck"/>
+            <class name = "factorialsiteCheck.FactorialresultCheck"/>
+            <class name = "factorialsiteCheck.Totallink"/>
+            <class name = "factorialsiteCheck.BugFound"/>
+        </classes>
+    </test>
+      <test name = "Regression Test 2" >
+	 <parameter name="browser" value="firefox"/>
+        <classes>
+			    <class name = "factorialsiteCheck.BrowserStack"/>
+			<class name = "factorialsiteCheck.ElementsStorage"/>
+            <class name = "factorialsiteCheck.ElimentsValidation"/>
+            <class name = "factorialsiteCheck.ValidationAttributesCheck"/>
+            <class name = "factorialsiteCheck.FactorialresultCheck"/>
+            <class name = "factorialsiteCheck.Totallink"/>
+            <class name = "factorialsiteCheck.BugFound"/>
+        </classes>
+    </test>
+      
+      <test name = "Regression Test 3" >
+	 <parameter name="browser" value="edge"/>
+        <classes>
+			    <class name = "factorialsiteCheck.BrowserStack"/>
+			<class name = "factorialsiteCheck.ElementsStorage"/>
+            <class name = "factorialsiteCheck.ElimentsValidation"/>
+            <class name = "factorialsiteCheck.ValidationAttributesCheck"/>
+            <class name = "factorialsiteCheck.FactorialresultCheck"/>
+            <class name = "factorialsiteCheck.Totallink"/>
+            <class name = "factorialsiteCheck.BugFound"/>
+        </classes>
+    </test>
+</suite>
